@@ -4,7 +4,7 @@
 	<remote name="prebuilt" fetch="https://github.com" review="review.lineageos.org" revision="refs/heads/lineage-22.2" />
 
   <!-- Kernel building -->
-  <project path="prebuilts/kernel-build-tools" name="kernel/prebuilts/build-tools" revision="main-kernel-build-2024" />
+  <project path="prebuilts/kernel-build-tools-custom" name="kernel/prebuilts/build-tools" revision="main-kernel-build-2024" />
   <project path="prebuilts/tools-lineage" name="LineageOS/android_prebuilts_tools-lineage" remote="prebuilt" />
   <project path="vendor/kernel_build" name="Exynos-AOSP-Master/android_vendor_kernel_build" remote="prebuilt" revision="refs/heads/master" >
       <!-- To make AOSP build/make pick up our BoardConfig -->
