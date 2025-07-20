@@ -6,7 +6,7 @@
   <!-- Kernel building -->
   <project path="prebuilts/kernel-build-tools-custom" name="kernel/prebuilts/build-tools" revision="main-kernel-build-2024" />
   <project path="prebuilts/tools-lineage-custom" name="LineageOS/android_prebuilts_tools-lineage" remote="prebuilt" />
-  <project path="vendor/kernel_build" name="Exynos-AOSP-Master/android_vendor_kernel_build" remote="prebuilt" revision="refs/heads/master" >
+  <project path="vendor/kernel_build-custom" name="Exynos-AOSP-Master/android_vendor_kernel_build" remote="prebuilt" revision="refs/heads/master" >
       <!-- To make AOSP build/make pick up our BoardConfig -->
       <linkfile src="config/BoardConfigKernel.mk" dest="vendor/google/build/config.mk" />
   </project>
