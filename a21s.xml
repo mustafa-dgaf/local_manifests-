@@ -5,10 +5,6 @@
            fetch="https://github.com/LineageOS"
            revision="lineage-23.1" />
 
-  <remote  name="muppets"
-           fetch="https://github.com/TheMuppets"
-           revision="lineage-23.1" />
-
   <!-- SLSI -->
   <project name="android_device_samsung_slsi_sepolicy" path="device/samsung_slsi/sepolicy" remote="origin" />
   <project name="android_hardware_samsung" path="hardware/samsung" remote="origin" />
